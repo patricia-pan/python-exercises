@@ -17,5 +17,6 @@ def factorial(num):
         num -=1
     print prod
     return prod
+    # Dave's solution used: for num in range(1, num+1)
 
 factorial(5)
