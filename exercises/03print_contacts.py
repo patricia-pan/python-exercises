@@ -20,3 +20,13 @@ contacts = {
   'Lenny': '444-444-4444',
   'Daniel': '777-777-7777'
 }
+
+def print_contacts(contacts):
+  statement = '{} has a phone number of {}'
+  for key in contacts:
+    # print (key)
+    # print contacts[key]
+    print(f'{key} has a phone number of {contacts[key]}') # Works in python 3 but not 2.
+    # print(statement.format(key, contacts[key]))
+
+print_contacts(contacts)

@@ -13,3 +13,14 @@
 # > Hello there
 # > Hello there
 # > Hello there
+
+
+def p_times(statement, num):
+    for x in range(num):
+        print(statement)
+    return
+
+    # Dave's solution:
+    # return (string + '\n') * num
+
+p_times('Hello there', 3)
